@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.ludoplex.omamarket-claude",
+  "name": "Omamarket Claude plugin marketplace",
+  "version": "0.1.0",
+  "author": "Mighty House Inc",
+  "license": "MIT",
+  "description": "Claude plugin marketplace from the bar. The publisher's own listings are shown first, labeled; the store's results follow in native order (no public API). One-lane edition of Omamarket.",
+  "kinds": ["bar-widget"],
+  "entryPoints": { "barWidget": "BarWidget.qml" },
+  "barWidget": {
+    "displayName": "Omamarket Claude plugin marketplace",
+    "description": "Claude plugin marketplace storefront with a disclosed pinned block",
+    "category": "Productivity",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
